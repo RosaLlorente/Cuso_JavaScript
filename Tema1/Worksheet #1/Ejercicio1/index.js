@@ -1,0 +1,1 @@
+document.write("Hola mundo"); //Muestra por la pantalla el mensaje "Hola mundo"
