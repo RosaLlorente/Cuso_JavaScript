@@ -7,7 +7,7 @@ function AnalisisCadena(cad_arg)
     : cad_arg == cad_arg.toLocaleUpperCase() ? resultado = "La cadena esta formada por mayusculas"
     : resultado = "La cadena es mixta";
 
-    return resultado
+    return resultado;
 }
 
 document.write(AnalisisCadena(Cadena));
