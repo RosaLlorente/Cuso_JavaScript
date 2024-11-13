@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
     <script src="index.js"></script>
 </head>
 <body>
@@ -13,9 +14,24 @@
             <button>Jugar de nuevo</button>
             <button>Reset</button>
         </nav>
-        <div id="Tablero">
 
+        <div class="Puntuación">
+            <p>Puntuación del jugador X: <b></b></p> 
+            <p>Puntuación del jugador Y: <b></b></p> 
+        </div>
+
+        <div id="Tablero">
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
         </div>
     </section>
+    <p id="Ganador"></p>
 </body>
 </html>
